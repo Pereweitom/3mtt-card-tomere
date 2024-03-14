@@ -1,0 +1,32 @@
+@media print {
+    body {
+      font-size: 12pt;
+    }
+  
+    .no-print {
+      display: none;
+    }
+  
+    /* Additional print styles go here */
+    .printable-content {
+     /* border: 2px dotted green;  Add margins for better readability */
+    }
+
+    .printable-content section {
+        width: 90%;
+        height: fit-content;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: rgba(0, 128, 0, .7);
+        margin: 0 auto;
+        color: #fff;
+        padding: 10px;
+        margin-top: 20px;
+        background-image: url("./images/bgimage.jpeg");
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        background-size: cover;
+        margin-bottom: 20px;
+    
+    }
+  }
